@@ -54,6 +54,8 @@ public class DatabaseAccess {
 //            this.database.close();
             this.openHelper.getWritableDatabase().close();
 
+            
+            //chenge
         }
     }
 
