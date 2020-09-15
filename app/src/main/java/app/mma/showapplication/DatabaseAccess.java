@@ -55,7 +55,7 @@ public class DatabaseAccess {
             this.openHelper.getWritableDatabase().close();
 
             
-            //chenge
+          
         }
     }
 
@@ -77,7 +77,6 @@ public class DatabaseAccess {
         cursor.moveToFirst();
         // while (!cursor.isAfterLast()) {
         // list.add(cursor.getString(2));
-
         // cursor.moveToNext();
         String temp1 = cursor.getString(2);
 //            String qusChoice = temp.substring(1,temp.length() - 1);
