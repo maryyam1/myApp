@@ -111,6 +111,8 @@ public class DatabaseAccess {
                 }i=i-5;
 
 
+
+
             }
 //            else if (arrayList[i].contains("اعتماد")) {
 //                for (int r = 0; r < 5; r++) {
@@ -138,7 +140,6 @@ public class DatabaseAccess {
 //            for (int m =0; m < arrayList2.length; m++) {
 //                if (arrayList2[m].equals("،"))
 //                { int n = 0; }
-//
             // }
         }
 
