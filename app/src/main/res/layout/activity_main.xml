@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="30dp"
+    android:background="#B8F14C">
+
+    <Button
+        android:id="@+id/posht"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:shadowColor="#000"
+        android:text="پشتکار"
+        android:textColor="#F70707"
+        android:textSize="30sp"
+        android:background="#30DD11"/>
+
+    <Button
+        android:id="@+id/etemad"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_alignParentRight="true"
+        android:background="#30DD11"
+        android:shadowColor="#000"
+        android:text="اعتماد بنفس"
+        android:textColor="#F70707"
+        android:textSize="30sp" />
+    <Button
+        android:id="@+id/neo"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="250dp"
+        android:background="#30DD11"
+        android:shadowColor="#000"
+        android:text=" نئو"
+        android:textColor="#F70707"
+        android:textSize="30sp" />
+
+</RelativeLayout>
